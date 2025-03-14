@@ -16,7 +16,7 @@ $T(n) \in O(f(n)) \iff  \exists c, n_0: T(n) \leq c \cdot f(n) \forall n \geq n_
 
 = $T(n) \in O(log{_2}{n}) \iff  \exists c, n_0: T(n) \leq c \cdot log{_2}{n} \forall n \geq n_0$ {definition of $O(log{_2}{n})$}
 
-= $T(n) \in O(log{_2}{n}) \iff  \exists n_0: T(n) \leq  \frac{1}{log{_2}{5}} \cdot log{_2}{n} \forall n \geq n_0$ {replace $\exists c \to \frac{1}{\log_2 5}$}
+= $T(n) \in O(log{_2}{n}) \iff  \exists n_0: T(n) \leq  \frac{1}{log{_2}{5}} \cdot log{_2}{n} \forall n \geq n_0$ { replace $\exists c \to \frac{1}{\log{_2}{5}}$ }
 
 = $T(n) \in O(log{_2}{n}) \iff  \exists n_0: T(n) \leq  1  \cdot log{_5}{n} \forall n \geq n_0$ {change of base formula}
 
@@ -24,7 +24,7 @@ $T(n) \in O(f(n)) \iff  \exists c, n_0: T(n) \leq c \cdot f(n) \forall n \geq n_
 
 = $T(n) \in O(log{_5}{n}) \iff  \exists c, n_0: T(n) \leq c \cdot log{_5}{n} \forall n \geq n_0$ {definition of $O(log{_5}{n})$}
 
-= $T(n) \in O(log{_5}{n}) \iff  \exists n_0: T(n) \leq  \frac{1}{log{_5}{2}} \cdot log{_5}{n} \forall n \geq n_0$ {replace $\exists c \to \frac{1}{\log_5 2}$}
+= $T(n) \in O(log{_5}{n}) \iff  \exists n_0: T(n) \leq  \frac{1}{log{_5}{2}} \cdot log{_5}{n} \forall n \geq n_0$ { replace $\exists c \to \frac{1}{\log{_5}{2}}$ }
 
 = $T(n) \in O(log{_5}{n}) \iff  \exists n_0: T(n) \leq  1  \cdot log{_2}{n} \forall n \geq n_0$ {change of base formula}
 
